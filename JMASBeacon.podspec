@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   # 以下、s.sourceはまだ なお上のバージョンとタグは揃えること
-  s.source       = { :git => "http://EXAMPLE/BeacappSDKforiOS.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/JMASystems/JMASBeacon.git", :tag => "1.0.0" }
   s.public_header_files = "BeacappSDKforiOS/Header/*.h"
 
   s.preserve_paths = "JMASBeacon/staticLib/libJMASBeacon.a"
