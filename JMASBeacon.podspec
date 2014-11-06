@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Beacon Ranging And Monitoring, Sending Library"
 
-  s.homepage     = "http://jmas.co.jp"
+  s.homepage     = "http://www.jmas.co.jp"
 
   s.author             = { "Akira Hayakawa" => "Akira_Hayakawa@jmas.co.jp" }
   
