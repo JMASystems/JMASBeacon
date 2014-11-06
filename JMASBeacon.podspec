@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JMASBeacon"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Beacon Ranging And Monitoring, Sending Library"
 
   s.homepage     = "http://www.jmas.co.jp"
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   # 以下、s.sourceはまだ なお上のバージョンとタグは揃えること
-  s.source       = { :git => "https://github.com/JMASystems/JMASBeacon.git", :tag => "1.0.0" }
-  s.public_header_files = "BeacappSDKforiOS/Header/*.h"
+  s.source       = { :git => "https://github.com/JMASystems/JMASBeacon.git", :tag => "1.0.1" }
+  s.public_header_files = "JMASBeacon/Header/*.h"
 
   s.preserve_paths = "JMASBeacon/staticLib/libJMASBeacon.a"
   s.vendored_libraries = "JMASBeacon/staticLib/libJMASBeacon.a"
